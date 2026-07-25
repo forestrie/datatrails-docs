@@ -49,6 +49,11 @@ editPage = true
 # Search Sections
 searchIndex = ["developers", "platform"]
 
+# Archive banner: this is an unaffiliated archive of the DataTrails public docs.
+# archivedFrom is the original site; the banner links each page to its equivalent
+# original page by re-basing the page path onto this host.
+archivedFrom = "https://docs.datatrails.ai"
+
 [options]
   lazySizes = true
   clipBoard = true

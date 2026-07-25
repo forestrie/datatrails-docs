@@ -1,0 +1,32 @@
+{{- /* Slim site-wide notice: this is an unaffiliated archive of the DataTrails
+       public docs. The "original" link re-bases this page's path onto the
+       original host, so it points at the equivalent page, not just the home. */ -}}
+{{- $archivedFrom := site.Params.archivedFrom | default "https://docs.datatrails.ai" -}}
+{{- $basePath := (urls.Parse site.BaseURL).Path -}}
+{{- $rel := strings.TrimPrefix $basePath .RelPermalink -}}
+{{- $orig := printf "%s/%s" (strings.TrimSuffix "/" $archivedFrom) $rel -}}
+<div class="archive-banner" role="note" aria-label="Archive notice">
+  <span class="archive-banner__text">
+    <strong>Archived copy</strong> of the DataTrails public documentation — an unofficial mirror, not affiliated with DataTrails or Forestrie.
+  </span>
+  <a class="archive-banner__link" href="{{ $orig | safeURL }}" target="_blank" rel="noopener noreferrer nofollow">View&nbsp;the&nbsp;original&nbsp;&rarr;</a>
+</div>
+<style>
+.archive-banner{
+  display:flex;flex-wrap:wrap;align-items:center;justify-content:center;
+  gap:.35rem 1rem;padding:.4rem 1rem;
+  font-size:.82rem;line-height:1.3;text-align:center;
+  background:#fff6e0;color:#5c4a12;
+  border-bottom:1px solid #ecd9a6;
+}
+.archive-banner__text{opacity:.95}
+.archive-banner__link{
+  white-space:nowrap;font-weight:600;color:#8a6d00;text-decoration:underline;
+}
+.archive-banner__link:hover{color:#6d5600}
+body.dark .archive-banner{
+  background:#2a2411;color:#e8d9a8;border-bottom-color:#4a3f1c;
+}
+body.dark .archive-banner__link{color:#f2ca6b}
+body.dark .archive-banner__link:hover{color:#ffd97a}
+</style>

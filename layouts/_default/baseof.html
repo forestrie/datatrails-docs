@@ -13,6 +13,7 @@
     {{ .Scratch.Add "class" " list" -}}
   {{ end -}}
   <body class="{{ .Scratch.Get "class" }}">
+    {{ partial "archived-banner.html" . }}
     {{ partial "header/header.html" . }}
     <div class="wrap container" role="document">
       <div class="content">
