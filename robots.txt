@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://forestrie.github.io/datatrails-docs/sitemap.xml
