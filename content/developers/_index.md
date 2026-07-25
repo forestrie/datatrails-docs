@@ -20,11 +20,11 @@ aliases:
 <section class="section section-sm" style="padding-top: 20px; padding-bottom: 20px;">
   <div class= "row justify-content-center">
     <div class="col-md-12 col-lg-10 col-xl-10">
-    <p><a href="/developers/developer-patterns/getting-access-tokens-using-app-registrations">Developer Patterns &rarr;</a><br>
+    <p><a href="{{< rel "/developers/developer-patterns/getting-access-tokens-using-app-registrations" >}}">Developer Patterns &rarr;</a><br>
     Go here for information on setting up an App Registration, requesting an Access Token together with other developer concepts and user profile descriptions.</p>
-    <p><a href="/developers/api-reference/app-registrations-api">API Reference &rarr;</a><br>
+    <p><a href="{{< rel "/developers/api-reference/app-registrations-api" >}}">API Reference &rarr;</a><br>
     The DataTrails REST API endpoint examples and definitions can be found here.</p>
-    <a href="/developers/yaml-reference/story-runner-components">YAML Runner Reference &rarr;</a><br>
+    <a href="{{< rel "/developers/yaml-reference/story-runner-components" >}}">YAML Runner Reference &rarr;</a><br>
     The YAML reference contains information and examples for those who work with YAML files and would prefer to use this method to access the API.
     </div>
   </div>

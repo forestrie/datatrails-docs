@@ -14,14 +14,14 @@ aliases:
       <h1>Overview</h1>
       <p>Begin your DataTrails journey here.<br></p>
       <p> Check out the articles below for an introduction to the DataTrails platform.</p><br>
-      <p><a href="/platform/overview/introduction/">Introduction &rarr;</a><br>
-      <a href="/platform/overview/core-concepts/">Core Concepts &rarr;</a><br>
-      <a href="/platform/overview/advanced-concepts/">Advanced Concepts &rarr;</a><br>
-      <a href="/platform/overview/creating-an-asset/">Creating an Asset  &rarr;</a><br>
-      <a href="/platform/overview/creating-an-event-against-an-asset/">Creating an Event Against an Asset &rarr;</a><br>
-      <a href="/platform/overview/registering-a-document-profile-asset/">Registering a Document Profile Asset &rarr;</a><br>
-      <a href="/platform/overview/registering-an-event-against-a-document-profile-asset/">Registering an Event Against a Document Profile Asset &rarr;</a><br>
-      <a href="/platform/overview/instaproof/">Instaproof &rarr;</a><br>
-      <a href="/platform/overview/public-attestation/">Public Attestation &rarr;</a></p>
+      <p><a href="{{< rel "/platform/overview/introduction/" >}}">Introduction &rarr;</a><br>
+      <a href="{{< rel "/platform/overview/core-concepts/" >}}">Core Concepts &rarr;</a><br>
+      <a href="{{< rel "/platform/overview/advanced-concepts/" >}}">Advanced Concepts &rarr;</a><br>
+      <a href="{{< rel "/platform/overview/creating-an-asset/" >}}">Creating an Asset  &rarr;</a><br>
+      <a href="{{< rel "/platform/overview/creating-an-event-against-an-asset/" >}}">Creating an Event Against an Asset &rarr;</a><br>
+      <a href="{{< rel "/platform/overview/registering-a-document-profile-asset/" >}}">Registering a Document Profile Asset &rarr;</a><br>
+      <a href="{{< rel "/platform/overview/registering-an-event-against-a-document-profile-asset/" >}}">Registering an Event Against a Document Profile Asset &rarr;</a><br>
+      <a href="{{< rel "/platform/overview/instaproof/" >}}">Instaproof &rarr;</a><br>
+      <a href="{{< rel "/platform/overview/public-attestation/" >}}">Public Attestation &rarr;</a></p>
     </div>
 </div>

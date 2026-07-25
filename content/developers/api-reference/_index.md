@@ -15,18 +15,18 @@ aliases:
       <h1>API Reference</h1>
       <p>This sub-section of the Developers subject area contains articles that describe and define the DataTrails REST API endpoints.<br></p>
       <p> Check out the articles below for more information!</p><br>
-      <p><a href="/developers/api-reference/app-registrations-api/">App Registrations API Registrations &rarr;</a><br>
-      <a href="/developers/api-reference/assets-api/">Assets API &rarr;</a><br>
-      <a href="/developers/api-reference/asset-events-api/">Asset-Events API &rarr;</a><br>
-      <a href="/developers/api-reference/attachments-api/">Attachments API &rarr;</a><br>
-      <a href="/developers/api-reference/blobs-api/">Blobs API &rarr;</a><br>
-      <a href="/developers/api-reference/events-api/">Events API &rarr;</a><br>
-      <a href="/developers/api-reference/iam-policies-api/">IAM Policies API &rarr;</a><br>
-      <a href="/developers/api-reference/iam-subjects-api/">IAM Subjects API &rarr;</a><br>
-      <a href="/developers/api-reference/locations-api/">Locations API &rarr;</a><br>
-      <a href="/developers/api-reference/members-api/">Members API &rarr;</a></p>
-      <a href="/developers/api-reference/public-assets-api/">Public Assets API &rarr;</a><br>
-      <a href="/developers/api-reference/tenancies-api/">Tenancies API &rarr;</a><br>
-      <a href="/developers/api-reference/caps-api/">Tenancy Caps API &rarr;</a></p>
+      <p><a href="{{< rel "/developers/api-reference/app-registrations-api/" >}}">App Registrations API Registrations &rarr;</a><br>
+      <a href="{{< rel "/developers/api-reference/assets-api/" >}}">Assets API &rarr;</a><br>
+      <a href="{{< rel "/developers/api-reference/asset-events-api/" >}}">Asset-Events API &rarr;</a><br>
+      <a href="{{< rel "/developers/api-reference/attachments-api/" >}}">Attachments API &rarr;</a><br>
+      <a href="{{< rel "/developers/api-reference/blobs-api/" >}}">Blobs API &rarr;</a><br>
+      <a href="{{< rel "/developers/api-reference/events-api/" >}}">Events API &rarr;</a><br>
+      <a href="{{< rel "/developers/api-reference/iam-policies-api/" >}}">IAM Policies API &rarr;</a><br>
+      <a href="{{< rel "/developers/api-reference/iam-subjects-api/" >}}">IAM Subjects API &rarr;</a><br>
+      <a href="{{< rel "/developers/api-reference/locations-api/" >}}">Locations API &rarr;</a><br>
+      <a href="{{< rel "/developers/api-reference/members-api/" >}}">Members API &rarr;</a></p>
+      <a href="{{< rel "/developers/api-reference/public-assets-api/" >}}">Public Assets API &rarr;</a><br>
+      <a href="{{< rel "/developers/api-reference/tenancies-api/" >}}">Tenancies API &rarr;</a><br>
+      <a href="{{< rel "/developers/api-reference/caps-api/" >}}">Tenancy Caps API &rarr;</a></p>
     </div>
 </div>

@@ -16,6 +16,6 @@ aliases:
       <h1>DataTrails Integrations</h1>
       <p>How to integrate DataTrails into partners and platforms
       <p> Check out the articles below for more information:</p>
-      <a href="/developers/integrations/n8n/">Integrating DataTrails with n8n&rarr;</a><br>
+      <a href="{{< rel "/developers/integrations/n8n/" >}}">Integrating DataTrails with n8n&rarr;</a><br>
     </div>
 </div>

@@ -1,0 +1,6 @@
+{{- /* rel: emit an internal URL with the deployment sub-path derived from baseURL.
+       Use inside raw-HTML blocks in content where the link render hook can't reach:
+       <a href="{{< rel "/platform/overview/introduction/" >}}">.
+       Leading slash is stripped: relURL only prepends baseURL's sub-path to a
+       relative input (a leading slash is treated as host-absolute). */ -}}
+{{- (.Get 0) | strings.TrimPrefix "/" | relURL -}}

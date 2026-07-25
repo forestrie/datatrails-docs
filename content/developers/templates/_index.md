@@ -18,7 +18,7 @@ aliases:
       Some templates are targeted at industry standards, providing interop, such as SCITT Statements.
       Other templates are more generic, providing a baseline for getting started.<br></p>
       <p> Check out the articles below for more information:</p>
-      <a href="/developers/templates/vcons/">Creating DataTrails Events for vCons&rarr;</a><br>
-      <a href="/developers/templates/scitt/">Creating SCITT Entries on the DataTrails Platform &rarr;</a><br>
+      <a href="{{< rel "/developers/templates/vcons/" >}}">Creating DataTrails Events for vCons&rarr;</a><br>
+      <a href="{{< rel "/developers/templates/scitt/" >}}">Creating SCITT Entries on the DataTrails Platform &rarr;</a><br>
     </div>
 </div>

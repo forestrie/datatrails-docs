@@ -14,10 +14,10 @@ toc: true
       <h1>Administration</h1>
       <p>This section is for Tenancy Administrators who need to know how to manage their Users and configure access to Assets.<br></p>
       <p> Check out the articles below for more information!</p><br>
-      <p><a href="/platform/administration/identity-and-access-management/">Identity and Access Management &rarr;</a><br>
-      <a href="/platform/administration/verified-domain/">Verified Domain &rarr;</a><br>
-      <a href="/platform/administration/sharing-access-inside-your-tenant/">Managing Internal Access to Your Tenant &rarr;</a><br>
-      <a href="/platform/administration/sharing-assets-outside-your-tenant/">Managing External Access to Your Tenant &rarr;</a><br>
-      <a href="/platform/administration/dropbox-integration/">Dropbox Integration &rarr;</a><br>
+      <p><a href="{{< rel "/platform/administration/identity-and-access-management/" >}}">Identity and Access Management &rarr;</a><br>
+      <a href="{{< rel "/platform/administration/verified-domain/" >}}">Verified Domain &rarr;</a><br>
+      <a href="{{< rel "/platform/administration/sharing-access-inside-your-tenant/" >}}">Managing Internal Access to Your Tenant &rarr;</a><br>
+      <a href="{{< rel "/platform/administration/sharing-assets-outside-your-tenant/" >}}">Managing External Access to Your Tenant &rarr;</a><br>
+      <a href="{{< rel "/platform/administration/dropbox-integration/" >}}">Dropbox Integration &rarr;</a><br>
     </div>
 </div>

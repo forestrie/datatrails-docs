@@ -22,9 +22,9 @@ aliases:
 <section class="section section-sm" style="padding-top: 20px; padding-bottom: 20px;">
   <div class= "row justify-content-center">
     <div class="col-md-12 col-lg-10 col-xl-10">    
-    <a href="/platform/overview/introduction/">Overview &rarr;</a><br>
+    <a href="{{< rel "/platform/overview/introduction/" >}}">Overview &rarr;</a><br>
     Core concepts and tasks<br>
-    <a href="/platform/administration/identity-and-access-management/">Administration &rarr;</a><br>
+    <a href="{{< rel "/platform/administration/identity-and-access-management/" >}}">Administration &rarr;</a><br>
     Create users, set access rights and share Events
     </div>
   </div>

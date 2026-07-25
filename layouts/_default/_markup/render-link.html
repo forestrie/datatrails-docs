@@ -1,2 +1,15 @@
-<!--open links that start with http or https in a new tab-->
-<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
+<!--
+  Link render hook.
+  Root-absolute internal links (authored as "/platform/...", "/developers/...")
+  are routed through relURL so the deployment sub-path is derived from baseURL,
+  never hard-coded. Change baseURL and every internal link follows.
+  External (http/https), protocol-relative (//), anchors (#) and relative links
+  pass through untouched. External links still open in a new tab.
+-->
+{{- $dest := .Destination -}}
+{{- if and (hasPrefix $dest "/") (not (hasPrefix $dest "//")) -}}
+  {{- /* strip the leading slash: relURL only prepends baseURL's sub-path to
+         a *relative* input; a leading slash is treated as host-absolute. */ -}}
+  {{- $dest = $dest | strings.TrimPrefix "/" | relURL -}}
+{{- end -}}
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
