@@ -1,2 +1,2 @@
 baseurl = "https://forestrie.github.io/datatrails-docs/"
-canonifyURLs = true
+canonifyURLs = false
